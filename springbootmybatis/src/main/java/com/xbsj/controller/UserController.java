@@ -14,6 +14,7 @@ public class UserController {
 
     @Resource(name = "userServiceimpl")
     private UserService userService;
+
     @RequestMapping("/userAll")
     public @ResponseBody Object userAll(){
         List<SysUser> sysUsers = userService.selectUserAll();

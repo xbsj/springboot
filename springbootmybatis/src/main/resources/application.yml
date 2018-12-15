@@ -10,7 +10,7 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
 
 
-###
+
 mybatis:
   mapper-locations: classpath:com/xbsj/mapper/*.xml
   config-location: classpath:mybatis.xml
